@@ -3,6 +3,8 @@
 # Apache Kafka
 ![image_589142173211625734253276](https://github.com/user-attachments/assets/b49b1c95-85a5-4add-a826-72379162a316)
 
+<img width="1096" alt="Screenshot 2024-08-14 at 8 44 24 PM" src="https://github.com/user-attachments/assets/ea555f5a-5482-404a-9aa9-3032a94caba8">
+
 * Kafka has clusters, which are a bunch of brokers. We have topics, which are data streams. Topics are partioned based on keys and split up among different brokers. There is fault tolerance. Consumers can consume a single stream at the same time, since "consuming" a stream doesn't necessarily mean removing any items. 
 
 * Kafka is for accepting real-time data, and storing that data for a certain period time (sometimes indefinitely). 
@@ -17,6 +19,8 @@
 * Used for distributed coordination and configuration management.
 
 # Apache Flink
+<img width="1120" alt="Screenshot 2024-08-14 at 8 43 48 PM" src="https://github.com/user-attachments/assets/586c16f1-7cd4-45fb-b0ed-1ebbdf0b8973">
+
 
 * running flink applicaiton is called a "job"
 * has a data streaming pipeline called a "job graph"
