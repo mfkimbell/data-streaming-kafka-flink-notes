@@ -20,6 +20,7 @@
 
 # Apache Flink
 <img width="1120" alt="Screenshot 2024-08-14 at 8 43 48 PM" src="https://github.com/user-attachments/assets/586c16f1-7cd4-45fb-b0ed-1ebbdf0b8973">
+<img width="1106" alt="Screenshot 2024-08-14 at 8 52 37 PM" src="https://github.com/user-attachments/assets/34ea5a03-84ee-4b03-baab-b13913466f3f">
 
 
 * running flink applicaiton is called a "job"
@@ -50,3 +51,4 @@
 * Kafka generally provides the "stream data storage layer"
 * Flink can handle batch processing and more compliated stream processing
 * Flink has more of a focus on real time operations
+* Kafka is more focussed on event streaming, (log aggregation, event sourcing, metrics collection, etc) not transformations
