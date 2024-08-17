@@ -51,7 +51,7 @@
 <img width="371" alt="Screenshot 2024-08-14 at 8 41 50 PM" src="https://github.com/user-attachments/assets/5ee3f34d-5aa4-4585-a7d6-96acd0fdd03f">
 
 * Kafka generally provides the "stream data storage layer"
-* Flink can handle batch processing and more compliated stream processing
+* Flink can handle batch processing AND more compliated stream processing (at the same time)
 * Flink has more of a focus on real time operations
 * Kafka is more focussed on event streaming, (log aggregation, event sourcing, metrics collection, etc) not transformations
 * Flink is better at exactly once processing (cannot risk duplicates or left out events)
