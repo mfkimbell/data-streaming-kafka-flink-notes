@@ -22,6 +22,7 @@
 <img width="1120" alt="Screenshot 2024-08-14 at 8 43 48 PM" src="https://github.com/user-attachments/assets/586c16f1-7cd4-45fb-b0ed-1ebbdf0b8973">
 <img width="1106" alt="Screenshot 2024-08-14 at 8 52 37 PM" src="https://github.com/user-attachments/assets/34ea5a03-84ee-4b03-baab-b13913466f3f">
 
+* Stream processing (real time) is better than delayed batch processing
 
 * running flink applicaiton is called a "job"
 * has a data streaming pipeline called a "job graph"
@@ -48,6 +49,7 @@
 
 # Differences between them
 <img width="371" alt="Screenshot 2024-08-14 at 8 41 50 PM" src="https://github.com/user-attachments/assets/5ee3f34d-5aa4-4585-a7d6-96acd0fdd03f">
+
 * Kafka generally provides the "stream data storage layer"
 * Flink can handle batch processing and more compliated stream processing
 * Flink has more of a focus on real time operations
