@@ -9,7 +9,9 @@
 
 * Kafka is for accepting real-time data, and storing that data for a certain period time (sometimes indefinitely). 
 
-* Kafka streams can send to other kafka streams. 
+* Kafka streams can send to other kafka streams.
+
+* Kafka is good because it decouples producers and consumers, so consumers can't get overwhelmed
 
 * kafka focuses on EVENTS rather than DATA. We used to focus on physical items and their state and store that in a database, it was a "request-response" model, where we would send https requests, and wait for responses before proceeding. Services were "monolithic" and tightly coupled. Kafka and event-driver architecture has a focus on asycrhonous communication. Things subscribe to topics and wait to do some computation, regardless of where it comes from.
 
